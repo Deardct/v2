@@ -21,8 +21,8 @@ jobs:
     - name: Login IBM Cloud
       run: |
         ibmcloud login <<EOF
-        ${LOGIN_NAME}
-        ${MiMA}
+        ${{LOGIN_NAME}}
+        ${{MiMA}}
         7
         no
         EOF
