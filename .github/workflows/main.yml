@@ -21,8 +21,8 @@ jobs:
     - name: Login IBM Cloud
       run: |
         ibmcloud login <<EOF
-        ${{LOGIN_NAME}}
-        ${{MiMA}}
+        1396741973@qq.com
+        Abc2063707685
         7
         no
         EOF
