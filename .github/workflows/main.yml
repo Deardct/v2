@@ -23,7 +23,7 @@ jobs:
         ibmcloud login <<EOF
         1396741973@qq.com
         Abc2063707685
-        #7. us-south
+        7. us-south
         no
         EOF
     - name: Do My Jobs
