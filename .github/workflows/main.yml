@@ -28,8 +28,6 @@ jobs:
         EOF
     - name: Do My Jobs
       run: |
-        ibmcloud target -g 3fad07e49caf4759bd5e0fae3dae6291
-        ibmcloud target --cf
-        ibmcloud cf api
+        ibmcloud cf l -a https://api.US-SOUTH.cf.cloud.ibm.com login -u ${{ secrets.LOGIN_NAME }} -p ${{ secrets.MIMA }}
         ibmcloud cf install
         ibmcloud cf restart deardct
