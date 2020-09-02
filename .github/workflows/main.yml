@@ -30,5 +30,6 @@ jobs:
       run: |
         ibmcloud target -g 3fad07e49caf4759bd5e0fae3dae6291
         ibmcloud target --cf
+        ibmcloud cf api
         ibmcloud cf install
         ibmcloud cf restart deardct
