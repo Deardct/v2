@@ -21,6 +21,9 @@ jobs:
             - name: npm install
               run: |
                   npm install
+            - name: npm install got
+              run: |
+                  npm install got
             - name: "运行 【京东试用】"
               run: |
                   node jd_try.js
