@@ -27,7 +27,7 @@ jobs:
             - name: npm install tough-cookie
               run: |
                   npm install tough-cookie
-            - name: "运行 【京东试用】"
+            - name: "运行 【京东价格保护】"
               run: |
                   node jd_priceProtect.js
               env:
